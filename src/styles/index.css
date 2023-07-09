@@ -1,4 +1,36 @@
-
+.counter-container {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+  }
+  
+  .digit-container {
+    width: 70px;
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.144);
+    border: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    margin: 5px;
+    color: white;
+    font-size:70px;
+  }
+  
+  .clock-symbol {
+    width: 100px;
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.527);
+    border: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    margin: 5px;
+    color: white;
+    font-size:60px;
+  }
 /* 
 
     You can write your own styles here...
