@@ -1,13 +1,13 @@
 .counter-container {
     display: flex;
     justify-content: center;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.801);
   }
   
   .digit-container {
     width: 70px;
     height: 100px;
-    background-color: rgba(0, 0, 0, 0.144);
+    background-color: rgba(0, 0, 0, 0.692);
     border: 1px solid #ccc;
     display: flex;
     align-items: center;
@@ -16,12 +16,13 @@
     margin: 5px;
     color: white;
     font-size:70px;
+    border-radius: 10px;
   }
   
   .clock-symbol {
     width: 100px;
     height: 100px;
-    background-color: rgba(0, 0, 0, 0.527);
+    background-color: rgba(0, 0, 0, 0.966);
     border: 1px solid #ccc;
     display: flex;
     align-items: center;
@@ -30,6 +31,7 @@
     margin: 5px;
     color: white;
     font-size:60px;
+    border-radius: 10px;
   }
 /* 
 
